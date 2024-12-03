@@ -1,0 +1,12 @@
+h1, h2 {
+    color: rgb(41, 184, 203);
+     background-color: rgb(201, 244, 11);
+     padding: 20px;
+     text-align: center;
+ }
+ .btn{
+     width: 250px;
+     height: 50px;
+     background-color: slateblue;
+     padding: 10px 20px;
+ }

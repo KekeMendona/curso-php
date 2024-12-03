@@ -1,0 +1,120 @@
+/* Resetando estilos padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Container para o formulário */
+.form-container {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #6a1b9a;
+}
+
+.form-container label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-container button {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #9c4d97;
+}
+
+/* Container para os eventos */
+.agenda-container {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.agenda-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #6a1b9a;
+}
+
+.agenda-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.agenda-container li {
+    background-color: #fafafa;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.agenda-container .excluir {
+    color: #d81b60;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.agenda-container .excluir:hover {
+    color: #c2185b;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .form-container, .agenda-container {
+        max-width: 90%;
+    }
+}
